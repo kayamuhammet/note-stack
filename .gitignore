@@ -20,8 +20,6 @@ out/
 *.db-shm
 *.db-wal
 
-# EF outputs
-Migrations/
 
 # Publishing output
 publish/

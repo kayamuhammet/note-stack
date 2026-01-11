@@ -1,6 +1,6 @@
-# SimpleNotesApp
+# NoteStack
 
-SimpleNotesApp is a user-friendly note-taking and management application developed using ASP.NET Core MVC.
+NoteStack is a user-friendly note-taking and management application developed using ASP.NET Core MVC.
 
 ## 🚀 Features
 
@@ -35,32 +35,37 @@ SimpleNotesApp is a user-friendly note-taking and management application develop
 ## 🚀 Installation
 
 1. Clone the project:
+
 ```bash
-git clone https://github.com/kayamuhammet/SimpleNotesApp.git
+git clone https://github.com/kayamuhammet/note-stack.git
 ```
 
 2. Navigate to the project directory:
+
 ```bash
-cd SimpleNotesApp
+cd note-stack
 ```
 
 3. Install required packages:
+
 ```bash
 dotnet restore
 ```
 
 4. Edit `appsettings.json` file:
+
    - Database connection settings
    - JWT settings
    - Email service settings
 
 5. Create Migrations and Database:
+
 ```bash
-dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
 6. Run the application:
+
 ```bash
 dotnet run
 ```
@@ -68,12 +73,15 @@ dotnet run
 ## 🔧 Configuration
 
 ### Database
+
 The application uses SQLite database by default. You can change database connection settings in `appsettings.json` file.
 
 ### Email Settings
+
 To use email verification and password reset features, you need to configure SMTP settings in `appsettings.json` file.
 
 ### Language Support
+
 The application supports Turkish and English languages by default. Language can be changed through the browser.
 
 ## 📝 Usage
@@ -102,13 +110,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 Project Owner - [@kayamuhammet](https://github.com/kayamuhammet)
 
-Project Link: [https://github.com/kayamuhammet/SimpleNotesApp](https://github.com/kayamuhammet/SimpleNotesApp)
+Project Link: [https://github.com/kayamuhammet/note-stack](https://github.com/kayamuhammet/note-stack)
 
 ---
 
-# SimpleNotesApp
+# NoteStack
 
-SimpleNotesApp, ASP.NET Core MVC kullanılarak geliştirilmiş, kullanıcı dostu bir not alma ve yönetme uygulamasıdır.
+NoteStack, ASP.NET Core MVC kullanılarak geliştirilmiş, kullanıcı dostu bir not alma ve yönetme uygulamasıdır.
 
 ## 🚀 Özellikler
 
@@ -143,32 +151,37 @@ SimpleNotesApp, ASP.NET Core MVC kullanılarak geliştirilmiş, kullanıcı dost
 ## 🚀 Kurulum
 
 1. Projeyi klonlayın:
+
 ```bash
-git clone https://github.com/kayamuhammet/SimpleNotesApp.git
+git clone https://github.com/kayamuhammet/note-stack.git
 ```
 
 2. Proje dizinine gidin:
+
 ```bash
-cd SimpleNotesApp
+cd note-stack
 ```
 
 3. Gerekli paketleri yükleyin:
+
 ```bash
 dotnet restore
 ```
 
 4. `appsettings.json` dosyasını düzenleyin:
+
    - Veritabanı bağlantı ayarlarını
    - JWT ayarlarını
    - E-posta servisi ayarlarını
 
 5. Migrations ve Veritabanını oluşturun:
+
 ```bash
-dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 
 6. Uygulamayı çalıştırın:
+
 ```bash
 dotnet run
 ```
@@ -176,12 +189,15 @@ dotnet run
 ## 🔧 Yapılandırma
 
 ### Veritabanı
+
 Uygulama varsayılan olarak SQLite veritabanını kullanır. Veritabanı bağlantı ayarlarını `appsettings.json` dosyasından değiştirebilirsiniz.
 
 ### E-posta Ayarları
+
 E-posta doğrulama ve şifre sıfırlama özelliklerini kullanmak için `appsettings.json` dosyasında SMTP ayarlarını yapılandırmanız gerekir.
 
 ### Dil Desteği
+
 Uygulama varsayılan olarak Türkçe ve İngilizce dil desteği sunar. Dil değişikliği tarayıcı üzerinden yapılabilir.
 
 ## 📝 Kullanım
@@ -210,4 +226,4 @@ Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICEN
 
 Proje Sahibi - [@kayamuhammet](https://github.com/kayamuhammet)
 
-Proje Linki: [https://github.com/kayamuhammet/SimpleNotesApp](https://github.com/kayamuhammet/SimpleNotesApp) 
+Proje Linki: [https://github.com/kayamuhammet/note-stack](https://github.com/kayamuhammet/note-stack)
